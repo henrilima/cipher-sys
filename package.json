@@ -1,0 +1,39 @@
+{
+    "name": "cipher-sys",
+    "version": "1.0.0",
+    "description": "A comprehensive utility package for encryption, decryption, and secure password management using Node.js and TypeScript, featuring key derivation, UUID generation, date formatting, and time conversion functions.",
+    "author": "Henrique Lima",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/henrilima/cipher-sys.git"
+    },
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "start": "node dist/index.js",
+        "test": "echo \"No tests specified\" && exit 0"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@types/node": "^22.8.1",
+        "typescript": "^5.6.3"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "keywords": [
+        "encryption",
+        "decryption",
+        "cipher",
+        "password management",
+        "uuid",
+        "nodejs",
+        "typescript"
+    ],
+    "homepage": "https://github.com/henrilima/cipher-sys#readme",
+    "bugs": {
+        "url": "https://github.com/henrilima/cipher-sys/issues"
+    }
+}
